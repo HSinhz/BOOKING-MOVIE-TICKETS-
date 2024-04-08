@@ -1,0 +1,43 @@
+        createAccount.QueryData("INSERT INTO DINHDANG VALUES ( '2D' , '2D')");
+        createAccount.QueryData("INSERT INTO DINHDANG VALUES ( '3D' , '3D')");
+        createAccount.QueryData("INSERT INTO DINHDANG VALUES ( '4D' , '4D')");
+
+        createAccount.QueryData("INSERT INTO THELOAI VALUES ( 'TC' , 'Tình cảm')");
+        createAccount.QueryData("INSERT INTO THELOAI VALUES ( 'HD' , 'Hành động')");
+        createAccount.QueryData("INSERT INTO THELOAI VALUES ( 'HH' , 'Hài hước')");
+        createAccount.QueryData("INSERT INTO THELOAI VALUES ( 'HHO' , 'Hoạt hình')");
+        createAccount.QueryData("INSERT INTO THELOAI VALUES ( 'KD' , 'Kinh dị')");
+        createAccount.QueryData("INSERT INTO THELOAI VALUES ( 'KHHVT' , 'Khoa học viễn tưởng')");
+        createAccount.QueryData("INSERT INTO THELOAI VALUES ( 'LS' , 'Lịch sử')");
+
+        createAccount.QueryData("INSERT INTO PHONGCHIEU VALUES ( 'P01' , 'Phòng 1' , 100)");
+        createAccount.QueryData("INSERT INTO PHONGCHIEU VALUES ( 'P02' , 'Phòng 2' , 100)");
+        createAccount.QueryData("INSERT INTO PHONGCHIEU VALUES ( 'P03' , 'Phòng 3' , 120)");
+        createAccount.QueryData("INSERT INTO PHONGCHIEU VALUES ( 'P04' , 'Phòng 4' , 120)");
+        createAccount.QueryData("INSERT INTO PHONGCHIEU VALUES ( 'P05' , 'Phòng 5' , 100)");
+        createAccount.QueryData("INSERT INTO PHONGCHIEU VALUES ( 'P06' , 'Phòng 6' , 150)");
+        createAccount.QueryData("INSERT INTO PHONGCHIEU VALUES ( 'P07' , 'Phòng 7' , 120)");
+        createAccount.QueryData("INSERT INTO PHONGCHIEU VALUES ( 'P08' , 'Phòng 8' , 100)");
+        createAccount.QueryData("INSERT INTO PHONGCHIEU VALUES ( 'P09' , 'Phòng 9' , 100)");
+        createAccount.QueryData("INSERT INTO PHONGCHIEU VALUES ( 'P010' , 'Phòng 10' , 100)");
+
+
+        createAccount.QueryData("INSERT INTO LOAIVE VALUES ( 'LV1' , 'Vé thường' , 70000)");
+        createAccount.QueryData("INSERT INTO LOAIVE VALUES ( 'LV2' , 'Vé trẻ em' , 55000)");
+        createAccount.QueryData("INSERT INTO LOAIVE VALUES ( 'LV3' , 'Vé 3D' , 90000)");
+        createAccount.QueryData("INSERT INTO LOAIVE VALUES ( 'LV4' , 'Vé 4D' , 110000)");
+        createAccount.QueryData("INSERT INTO LOAIVE VALUES ( 'LV5' , 'Vé ngày lễ' , 80000)");
+        createAccount.QueryData("INSERT INTO LOAIVE VALUES ( 'LV6' , 'Vé thành viên' , 55000)");
+        createAccount.QueryData("INSERT INTO LOAIVE VALUES ( 'LV7' , 'Vé HSSV' , 60000)");
+
+        createAccount.QueryData("INSERT INTO XUATCHIEU VALUES ( 1 , '8:30' , 1 , 'P01')");
+        createAccount.QueryData("INSERT INTO XUATCHIEU VALUES ( 2 , '10:30' , 1 , 'P01')");
+        createAccount.QueryData("INSERT INTO XUATCHIEU VALUES ( 3 , '11:30' , 1 , 'P02')");
+        createAccount.QueryData("INSERT INTO XUATCHIEU VALUES ( 4 , '8:30' , 2 , 'P02')");
+        createAccount.QueryData("INSERT INTO XUATCHIEU VALUES ( 5 , '10:30' , 2 , 'P02')");
+        createAccount.QueryData("INSERT INTO XUATCHIEU VALUES ( 6 , '11:30' , 2 , 'P01')");
+        createAccount.QueryData("INSERT INTO XUATCHIEU VALUES ( 7 , '10:30' , 3 , 'P03')");
+        createAccount.QueryData("INSERT INTO XUATCHIEU VALUES ( 8 , '11:30' , 3 , 'P03')");
+
+        createAccount.QueryData("INSERT INTO GHE VALUES ( 1 , 6 , 1 , 1 )");
+        createAccount.QueryData("INSERT INTO GHE VALUES ( 2 , 5 , 1 , 1 )");
